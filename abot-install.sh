@@ -7,7 +7,7 @@ if [ -f ${defaultBotName} ]; then
 fi
 
 echo "[1/3] Загружаю последнюю версию бота..."
-wget -q https://drive.google.com/file/d/1_lB4PzKbhm-P06d7qrcXudFXXH-U0Rrk/view?usp=sharing
+wget -q https://drive.google.com/file/d/1I-t52mbg71DgS1deo3Qir9SeXcNJF12_/view?usp=sharing
 echo "[2/3] Бот загружен, выставляю права доступа..."
 chmod 755 ${defaultBotName}
 echo "[3/3] Всё готово, запускайте бота командой: ./${defaultBotName}"
