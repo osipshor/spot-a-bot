@@ -59,7 +59,7 @@ The bot works according to the averaging strategy. The essence of the strategy i
 ### Starting:
 *Windows (only 10 x64))*: Download **[A-Bot.exe](https://github.com/osipshor/spot-a-bot/releases/latest)** and run 
 *Linux (minimum 18.04)*: Download **[A-Bot](https://github.com/osipshor/spot-a-bot/releases/latest)**  
-(`wget https://github.com/osipshor/spot-a-bot/releases/download/VERSION/A-Bot`,  specify last version instead ***VERSION***),  
+(`wget https://github.com/osipshor/spot-a-bot/releases/download/1.483/A-Bot`),  
 give it rights by command `chmod 755 A-Bot`, then run with the command `./A-Bot`  
 
 ### Working with screen command on Linux:
