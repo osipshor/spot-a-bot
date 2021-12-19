@@ -88,7 +88,7 @@ Referal ID: `NYGPPWD2`**
 ### Запуск:
 *Windows (>8, >Server 2012)*: Скачайте **[A-Bot.exe](https://github.com/osipshor/spot-a-bot/releases)** и запустите программу  
 *Linux (Ubuntu >18.04; Debian >9; CentOS >8)*: Скачайте **[A-Bot](https://github.com/osipshor/spot-a-bot/releases)**  
-(`wget https://github.com/osipshor/spot-a-bot/releases/download/1.483/A-Bot`, 
+(`wget https://github.com/osipshor/spot-a-bot/releases/download/1.522/A-Bot`, 
 дайте ему права командой `chmod 755 A-Bot или воспользуйтесь готовыми командами, вставив в консоль строку wget https://github.com/osipshor/spot-a-bot/releases/download/1.483/abot-install.sh , после чего запустите бота командой `./A-Bot`  
 
 ### Обновление:
