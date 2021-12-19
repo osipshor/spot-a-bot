@@ -96,7 +96,7 @@ Referal ID: `NYGPPWD2`**
 **ИЛИ**  
 *Windows*: Скачиваете новую версию в директорию со старым файлом (с перезаписью)  
 *Linux*: В директории с ботом вводите команду на удаление старой версии `rm A-Bot`,  
-затем вводите команду `wget https://github.com/osipshor/spot-a-bot/releases/download/1.483/A-Bot`,  
+затем вводите команду `wget https://github.com/osipshor/spot-a-bot/releases/download/1.522/A-Bot`,  
 , после чего даёте права файлу `chmod 755 ./A-Bot`  
 и запускаете его командой `./A-Bot`  
 
