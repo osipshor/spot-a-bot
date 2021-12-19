@@ -89,7 +89,7 @@ Referal ID: `NYGPPWD2`**
 *Windows (>8, >Server 2012)*: Скачайте **[A-Bot.exe](https://github.com/osipshor/spot-a-bot/releases)** и запустите программу  
 *Linux (Ubuntu >18.04; Debian >9; CentOS >8)*: Скачайте **[A-Bot](https://github.com/osipshor/spot-a-bot/releases)**  
 (`wget https://github.com/osipshor/spot-a-bot/releases/download/1.522/A-Bot`, 
-дайте ему права командой `chmod 755 A-Bot или воспользуйтесь готовыми командами, вставив в консоль строку wget https://github.com/osipshor/spot-a-bot/releases/download/1.483/abot-install.sh , после чего запустите бота командой `./A-Bot`  
+дайте ему права командой `chmod 755 A-Bot или воспользуйтесь готовыми командами, вставив в консоль строку wget https://github.com/osipshor/spot-a-bot/releases/download/1.522/abot-install.sh , после чего запустите бота командой `./A-Bot`  
 
 ### Обновление:
 При выходе новой версии в течение часа в главном меню A-Bot появится новая ключ-команда `-u` для обновления; также в Вашем Telegram-боте (через который Вы управляете торговым ботом и который отвечает за пуши сообщений в Ваш Telegram-канал) появится новая кнопка `Обновить A-Bot` (при обновлении через Telegram бот перезапустится и начнёт торговлю автоматически)  
