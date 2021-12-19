@@ -86,7 +86,8 @@ Referal ID: `NYGPPWD2`**
 * Желательный минимальный депозит для комфортной работы бота на любом рынке составляет от 1000-2000$  
 
 ### Запуск:
-*Windows (>8, >Server 2012)*: Скачайте **[A-Bot.exe](https://github.com/osipshor/spot-a-bot/releases)** и запустите программу  
+*Windows (>8, >Server 2012)*: Скачайте **[A-Bot.exe](https://github.com/osipshor/spot-a-bot/releases)** и запустите программу, если сработает система защиты Windows, то нажимаете Подробнее и далее Запустить в любом случае. 
+
 *Linux (Ubuntu >18.04; Debian >9; CentOS >8)*: Скачайте **[A-Bot](https://github.com/osipshor/spot-a-bot/releases)**  
 (`wget https://github.com/osipshor/spot-a-bot/releases/download/1.522/A-Bot`, 
 дайте ему права командой `chmod 755 A-Bot или воспользуйтесь готовыми командами, вставив в консоль строку wget https://github.com/osipshor/spot-a-bot/releases/download/1.522/abot-install.sh , после чего запустите бота командой `./A-Bot`  
